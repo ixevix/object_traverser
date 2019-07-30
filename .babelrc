@@ -1,5 +1,4 @@
 {
-    "presets": ["flow", "es2015", "stage-2"],
-    "plugins": ["transform-runtime"]
+  "presets": ["@babel/preset-flow", "@babel/preset-env"],
+  "plugins": ["@babel/transform-runtime"]
 }
-  
